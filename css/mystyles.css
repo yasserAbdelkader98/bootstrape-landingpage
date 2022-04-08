@@ -1,0 +1,42 @@
+/* .mycarousel{
+    height: 100vh;
+} */
+.carousel-item img{
+    height:100vh;
+}
+/* #mynavbar a{
+    color: rgb(rgba(46, 90, 235, 0.856)) !important;
+} */
+/* .nav-link.active{
+    color: red !important;
+} */
+/* @media all and (min-width:400px) and (max-width:600px){
+    .navbar{
+        background-color: lightgoldenrodyellow !important;
+        
+    }
+    .navbar-toggler{
+        color:black !important;
+    }
+} */
+
+.nav-link>img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.card-header{
+    border: none;
+    
+}
+.card-header-pills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item>.nav-link{
+    transition:0.5s;
+}
+.nav-item>.nav-link.active{
+    background:transparent;
+    transform: scale(1.2);
+}
